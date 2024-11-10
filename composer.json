@@ -1,0 +1,11 @@
+{
+    "name": "user/ecomshopex",
+    "autoload": {
+        "psr-4": {
+            "User\\Ecomshopex\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
