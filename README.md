@@ -7,7 +7,7 @@ The E-Commerce Website is a PHP-based web application with MySQL as the database
 
 ## Features
 - **Shopping Cart**: Add, update and remove products from the cart.
-- **Checkout ** : Supports secure online payments via PayPay API (including credit card payment options).
+- **Checkout** : Supports secure online payments via PayPay API (including credit card payment options).
 - **Order History** : View past orders and track statuses.
 
 ## Admin Features
@@ -29,15 +29,17 @@ The E-Commerce Website is a PHP-based web application with MySQL as the database
    `git clone https://github.com/covenanter07/Shop-Site-Demo `
 
 2. Install dependencies:
-
    `composer install`
 
 3. Configure the .env file:
    Create a `.env` file in the root directory and add the following:
 
    DB_HOST=localhost
+   
    DB_USERNAME=username
+   
    DB_PASSWORD=yourpassword
+   
    DB_DATABASE=dbname
    
    PAYPAL_CLIENT_ID=your_client_id
@@ -45,19 +47,13 @@ The E-Commerce Website is a PHP-based web application with MySQL as the database
 4. Set up the database:
 
 *Start XAMPP and enable MySQL.
-*Import the db.sql file into phpMyAdmin:
-* Create a new database.
+*Import the db.sql file into phpMyAdmin: Create a new database.
 
 
 5. Run the application:
 
 *Start Apache in XAMPP.
 *Access the site to Index Page.
-    
-*
-*
-*
-
 
 ## 
 ## Deployment
