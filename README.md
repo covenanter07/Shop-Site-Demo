@@ -45,17 +45,14 @@ The E-Commerce Website is a PHP-based web application with MySQL as the database
    PAYPAL_CLIENT_ID=your_client_id
 
 4. Set up the database:
-
-*Start XAMPP and enable MySQL.
-*Import the db.sql file into phpMyAdmin: Create a new database.
+   Start XAMPP and enable MySQL.
+   Import the db.sql file into phpMyAdmin: Create a new database.
 
 
 5. Run the application:
+   Start Apache in XAMPP.
+   Access the site to Index Page.
 
-*Start Apache in XAMPP.
-*Access the site to Index Page.
-
-## 
 ## Deployment
 This project is deployed using Google Compute Platform(GCP). You can access the
 Deployed version at:
@@ -65,33 +62,33 @@ Deployed version at:
 
 ## Project Structure
 
-|-- /admin              # Admin backend files  
-|-- /assets              # Frontend assets  
-|   |-- /css             # Stylesheets  
-|   |-- /images          # Static images  
-|   |-- /js              # JavaScript files  
-|-- /config              # Configuration files  
-|   |-- db.php           # Database connection  
-|-- /functions           # Core functionality and helper functions  
-|-- /includes            # Reusable components (header, footer, navbar)  
-|-- /middleware          # Route protection middleware  
-|-- /uploads             # Uploaded product images  
-.gitignore               # Ignored files  
-authencticate.php        # Authentication logic  
-cart.php                 # Shopping cart page  
-category.php             # Product categories  
-checkout.php             # Checkout logic with PayPal integration  
-composer.json            # Composer dependencies  
-composer.lock            # Composer lock file  
-db.sql                   # Database structure and sample data  
-index.php                # Homepage  
-login.php                # User login  
-logout.php               # User logout logic  
-my-orders.php            # User order history  
-product-view.php         # Product details  
-products.php             # Products page  
-register.php             # User registration  
-view-order.php           # Admin order view  
+|-- /admin                     # Admin backend files  
+|-- /assets                    # Frontend assets  
+|   |-- /css                   
+|   |-- /images                
+|   |-- /js                   
+|-- /config                    
+|   |-- db.php                 
+|-- /functions                 
+|-- /includes                  
+|-- /middleware                 
+|-- /uploads                    
+.gitignore                      
+authencticate.php              
+cart.php                       # Shopping cart page  
+category.php                   # Product categories  
+checkout.php                   # Checkout logic with PayPal integration  
+composer.json                    
+composer.lock                   
+db.sql                        
+index.php                      # Homepage  
+login.php                      
+logout.php                     
+my-orders.php                  # order history  
+product-view.php               # Product details  
+products.php                   # Products page  
+register.php                   
+view-order.php                 # order view  
 
 ## Features
 
