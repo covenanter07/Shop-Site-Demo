@@ -62,7 +62,7 @@ Deployed version at:
 
 ## Project Structure
 
-|-- /admin                     # Admin backend files  
+|-- /admin                                                                                                                                       # Admin backend files  
 |-- /assets                    # Frontend assets  
 |   |-- /css                   
 |   |-- /images                
