@@ -1,6 +1,6 @@
 # Getting Started with E-Commerce Website
 
-![Demo]([ https://github.com/covenanter07/Shop-Site-Demo/blob/main/ec_shop.png](https://github.com/covenanter07/Shop-Site-Demo/blob/main/es_shopss.png))
+![Demo](https://github.com/covenanter07/Shop-Site-Demo/blob/main/es_shopss.png)
 
 ## E-Commerce Website Overview
 The E-Commerce Website is a PHP-based web application with MySQL as the database, built using the XAMPP stack. It offers a complete shopping experience with features for customers and administrators. The project includes frontend functionality for customers and a secure admin backend for managing categories, products, and orders.
