@@ -100,4 +100,4 @@ view-order.php                 # order view
 
 ## Dependencies
 
-*PHP Packages (via Composer):
+* PHP Packages (via Composer):
