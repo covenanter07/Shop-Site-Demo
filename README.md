@@ -75,7 +75,7 @@ Deployed version at:
 |-- /uploads                    
 .gitignore                      
 authencticate.php              
-cart.php                       # Shopping cart page  
+cart.php                                                  # Shopping cart page  
 category.php                   # Product categories  
 checkout.php                   # Checkout logic with PayPal integration  
 composer.json                    
