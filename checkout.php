@@ -1,4 +1,5 @@
 <?php
+ob_start(); // 開始緩衝輸出
 include('includes/header.php');
 include('functions/userfunction.php');
 include('authencticate.php');
@@ -151,7 +152,9 @@ if (mysqli_num_rows($cartItems) == 0) {
 
 
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php'); 
+ob_end_flush(); // 結束並輸出緩衝內容
+?>
 <!-- Replace "test" with your own sandbox Business account app client ID -->
 <script src="https://www.paypal.com/sdk/js?client-id=<?= $paypalClientId ?>&currency=USD"></script>
 </script>
