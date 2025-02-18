@@ -3,36 +3,12 @@ ob_start(); // 開始緩衝輸出
 include('includes/header.php');
 include('functions/userfunction.php');
 include('authencticate.php');
-require __DIR__ . '/vendor/autoload.php';
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+$paypalClientId = getenv('PAYPAL_CLIENT_ID');
 
-try {
-    // 檢查 .env 檔案是否存在
-    if (!file_exists(__DIR__ . '/.env')) {
-        throw new Exception('.env file not found. Please create one in the root directory.');
-    }
-
-    // 載入環境變數
-    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-    $dotenv->load();
-
-    // 獲取 PayPal Client ID（使用更安全的方式）
-    $paypalClientId = $_ENV['PAYPAL_CLIENT_ID'] ?? null;
-
-    if (!$paypalClientId) {
-        throw new Exception('PAYPAL_CLIENT_ID is not set in .env file');
-    }
-
-    $paypalClientId = htmlspecialchars($paypalClientId);
-} catch (Exception $e) {
-    // 記錄錯誤（在正式環境中應該使用適當的錯誤日誌）
-    error_log('PayPal Configuration Error: ' . $e->getMessage());
-
+if (!$paypalClientId) {
     // 顯示對用戶友善的錯誤訊息
-    die('Payment system configuration error. Please contact support.');
-}
+    die('Payment system configuration error. Please contact support.'
 
 // payment
 $cartItems = getCartItems();
