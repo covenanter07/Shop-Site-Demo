@@ -1,19 +1,18 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php'; // Ensure the path to autoload is correct
+require __DIR__ . '/../vendor/autoload.php';
 
-// Load environment variables from the .env file
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
-$dotenv->load();
+// 讀取環境變數
+$host = getenv('DB_HOST');
+$username = getenv('DB_USERNAME');
+$password = getenv('DB_PASSWORD');
+$database = getenv('DB_DATABASE');
 
-
-$host = $_ENV['DB_HOST'];
-$username = $_ENV['DB_USERNAME'];
-$password = $_ENV['DB_PASSWORD'];
-$database = $_ENV['DB_DATABASE'];
-
+// 連接 MySQL
 $con = mysqli_connect($host, $username, $password, $database);
 
 if (!$con) {
-    die("Connection Failed:" . mysqli_connect_error());
+    die("Connection Failed: " . mysqli_connect_error());
 }
+?>
+
