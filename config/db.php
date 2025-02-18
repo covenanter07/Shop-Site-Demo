@@ -1,10 +1,11 @@
+
 <?php
 
 require __DIR__ . '/../vendor/autoload.php'; // Ensure the path to autoload is correct
 
-// Load environment variables from the .env file
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
-$dotenv->load();
+// Note: Remove dotenv loading as we're using Zeabur environment variables
+//$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+//$dotenv->load();
 
 $host = $_ENV['MYSQL_HOST'];
 $username = $_ENV['MYSQL_USERNAME'];
