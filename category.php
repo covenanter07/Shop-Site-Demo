@@ -1,7 +1,7 @@
 <?php
+ob_start();
 include('includes/header.php');
 include('functions/userfunction.php');
-
 ?>
 
 <div class="py-3 bg-primary">
@@ -59,4 +59,6 @@ include('functions/userfunction.php');
 </div>
 
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php'); 
+ob_end_flush();
+?>
