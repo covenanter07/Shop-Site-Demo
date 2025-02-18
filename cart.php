@@ -1,5 +1,4 @@
 <?php
-
 include('includes/header.php');
 include('functions/userfunction.php');
 include('authencticate.php');
