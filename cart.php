@@ -1,4 +1,5 @@
 <?php
+ob_start();
 include('includes/header.php');
 include('functions/userfunction.php');
 include('authencticate.php');
@@ -100,3 +101,4 @@ include('authencticate.php');
 
 
 <?php include('includes/footer.php'); ?>
+<?php ob_end_flush(); 
