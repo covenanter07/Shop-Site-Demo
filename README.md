@@ -54,11 +54,9 @@ The E-Commerce Website is a PHP-based web application with MySQL as the database
    Access the site to Index Page.
 
 ## Deployment
-This project is deployed using Google Compute Platform(GCP). You can access the
-Deployed version at:
+This project is deployed using Zeabur. You can access the Deployed version at:
 
-1.	https://www.clementshopex.com/
-2.	https://clementshopex.com/
+https://shop-site-demo.zeabur.app/
 
 ## Project Structure
 
