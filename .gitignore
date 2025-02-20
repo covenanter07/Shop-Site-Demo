@@ -1,3 +1,6 @@
 .env
 /vendor/
+<<<<<<< HEAD
 ec_shop.png
+=======
+>>>>>>> 9b48b41bff76feae46bad2642cc8d288bd9af3aa
