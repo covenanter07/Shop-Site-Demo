@@ -7,7 +7,7 @@ The E-Commerce Website is a PHP-based web application with MySQL as the database
 
 ## Features
 - **Shopping Cart**: Add, update and remove products from the cart.
-- **Checkout** : Supports secure online payments via PayPay API (including credit card payment options).
+- **Checkout** : Supports secure online payments via PayPal API (including credit card payment options).
 - **Order History** : View past orders and track statuses.
 
 ## Admin Features
