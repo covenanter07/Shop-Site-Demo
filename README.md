@@ -1,13 +1,13 @@
 # Getting Started with E-Commerce Website
 
-![Demo]( https://github.com/covenanter07/Shop-Site-Demo/blob/main/ec_shop.png)
+![Demo](https://github.com/covenanter07/Shop-Site-Demo/blob/main/assets/images/slider2.jpg)
 
 ## E-Commerce Website Overview
 The E-Commerce Website is a PHP-based web application with MySQL as the database, built using the XAMPP stack. It offers a complete shopping experience with features for customers and administrators. The project includes frontend functionality for customers and a secure admin backend for managing categories, products, and orders.
 
 ## Features
 - **Shopping Cart**: Add, update and remove products from the cart.
-- **Checkout** : Supports secure online payments via PayPay API (including credit card payment options).
+- **Checkout** : Supports secure online payments via PayPal API (including credit card payment options) and cash payment options.
 - **Order History** : View past orders and track statuses.
 
 ## Admin Features
@@ -54,11 +54,9 @@ The E-Commerce Website is a PHP-based web application with MySQL as the database
    Access the site to Index Page.
 
 ## Deployment
-This project is deployed using Google Compute Platform(GCP). You can access the
-Deployed version at:
+This project is deployed using Zeabur. You can access the Deployed version at:
 
-1.	https://www.clementshopex.com/
-2.	https://clementshopex.com/
+https://shop-site-demo.zeabur.app/
 
 ## Project Structure
 

@@ -2,18 +2,15 @@
 
 require __DIR__ . '/../vendor/autoload.php'; // Ensure the path to autoload is correct
 
-// Load environment variables from the .env file
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
-$dotenv->load();
+$host = $_ENV['MYSQL_HOST'];
+$username = $_ENV['MYSQL_USERNAME'];
+$password = $_ENV['MYSQL_PASSWORD'];
+$database = $_ENV['MYSQL_DATABASE'];
+$port = $_ENV['MYSQL_PORT'] ?? 3306; // Use 3306 as default if MYSQL_PORT is not set
 
-
-$host = $_ENV['DB_HOST'];
-$username = $_ENV['DB_USERNAME'];
-$password = $_ENV['DB_PASSWORD'];
-$database = $_ENV['DB_DATABASE'];
-
-$con = mysqli_connect($host, $username, $password, $database);
+$con = mysqli_connect($host, $username, $password, $database, $port);
 
 if (!$con) {
     die("Connection Failed:" . mysqli_connect_error());
 }
+

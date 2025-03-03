@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 include('includes/header.php');
 include('functions/userfunction.php');
 include('authencticate.php');
@@ -76,4 +76,6 @@ include('authencticate.php');
 </div>
 
 
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer.php'); 
+ob_end_flush();
+?>

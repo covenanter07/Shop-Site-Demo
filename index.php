@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 include('includes/header.php');
 include('includes/slider.php');
 include('functions/userfunction.php');
@@ -99,8 +99,9 @@ include('functions/userfunction.php');
 </div>
 
 
-<?php include('includes/footer.php'); ?>
-
+<?php include('includes/footer.php'); 
+ob_end_flush();
+?>
 <script>
     $(document).ready(function() {
         $('.owl-carousel').owlCarousel({
