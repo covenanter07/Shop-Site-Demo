@@ -50,15 +50,19 @@ include('functions/userfunction.php');
                 <h4>About Us</h4>
                 <div class="underline mb-2"></div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro deleniti eos qui at? Aut odio, ipsam
-                    adipisci aliquam dolor nisi accusantium quod non nam possimus tenetur quo sit dolorum molestiae?
+                    Welcome to our fashion shopping website! This is an e-commerce platform dedicated to selling clothing, backpacks, and shoes, aiming to provide high-quality products and a convenient shopping experience. 
+                    Whether you're pursuing trendy fashion or practical functionality, we can meet your needs.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro deleniti eos qui at? Aut odio, ipsam
-                    <br>
-                    adipisci aliquam dolor nisi accusantium quod non nam possimus tenetur quo sit dolorum molestiae?
+                    You can easily register an account and log in to manage your shopping cart and favorite items anytime. 
+                    Additionally, we offer secure payment options to ensure your transactions are safe.
                 </p>
-
+                <p>
+                    High-quality products: Carefully selected for durability and outstanding design.
+                </p>
+                <p>
+                    Excellent service: Fast delivery and friendly customer support.
+                </p>
             </div>
         </div>
     </div>
