@@ -81,10 +81,10 @@ include('functions/userfunction.php');
             </div>
             <div class="col-md-3">
                 <h4 class="text-white">Contact</h4>
-                <p>
-                    <li class="text-white">E-commerce Collaboration</li>
-                    <li class="text-white">Online Media Collaboration</li>
-                </p>
+                <ul class="text-white">
+                    <li>E-commerce Collaboration</li>
+                    <li>Online Media Collaboration</li>
+                </ul>
                 <a href="tel:+8975412367" class="text-white"> <i class="fa fa-phone"></i> +32 546273737</a><br>
                 <a href="mailto:ecompshop@gmail.com" class="text-white"> <i class="fa fa-envelope"></i> ecompshop@gmail.com</a>
             </div>
