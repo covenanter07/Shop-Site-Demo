@@ -86,7 +86,7 @@ include('functions/userfunction.php');
                     <li>Online Media Collaboration</li>
                 </ul>
                 <a href="tel:+8975412367" class="text-white"> <i class="fa fa-phone"></i> +32 546273737</a><br>
-                <a href="mailto:ecompshop@gmail.com" class="text-white"> <i class="fa fa-envelope"></i> ecompshop@gmail.com</a>
+                <a href="mailto:ecomshop@gmail.com" class="text-white"> <i class="fa fa-envelope"></i> ecomshop@gmail.com</a>
             </div>
         </div>
     </div>
