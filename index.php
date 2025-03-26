@@ -81,7 +81,7 @@ include('functions/userfunction.php');
             </div>
             <div class="col-md-3">
                 <h4 class="text-white">Contact</h4>
-                <ul class="text-white">
+                <ul class="text-white ps-0">
                     <li>E-commerce Collaboration</li>
                     <li>Online Media Collaboration</li>
                 </ul>
