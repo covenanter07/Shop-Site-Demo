@@ -60,33 +60,33 @@ https://shop-site-demo.zeabur.app/
 
 ## Project Structure
 
-|-- /admin                                                                                                                                       # Admin backend files  
-|-- /assets                    # Frontend assets  
-|   |-- /css                   
-|   |-- /images                
-|   |-- /js                   
+|-- /admin                                                   # Admin backend files                                                                                     
+|-- /assets                                                  # Frontend assets  
+|     |-- /css                   
+|     |-- /images                
+|     |-- /js                   
 |-- /config                    
-|   |-- db.php                 
+|      |-- db.php                 
 |-- /functions                 
 |-- /includes                  
 |-- /middleware                 
 |-- /uploads                    
-.gitignore                      
-authencticate.php              
-cart.php                                                  # Shopping cart page  
-category.php                   # Product categories  
-checkout.php                   # Checkout logic with PayPal integration  
-composer.json                    
-composer.lock                   
-db.sql                        
-index.php                      # Homepage  
-login.php                      
-logout.php                     
-my-orders.php                  # order history  
-product-view.php               # Product details  
-products.php                   # Products page  
-register.php                   
-view-order.php                 # order view  
+|--.gitignore                    
+|--authencticate.php              
+|--cart.php                                                  # Shopping cart page  
+|--category.php                                              # Product categories  
+|--checkout.php                                              # Checkout logic with PayPal integration  
+|--composer.json                    
+|--composer.lock                   
+|--db.sql                        
+|--index.php                                                 # Homepage  
+|--login.php                      
+|--logout.php                     
+|--my-orders.php                                             # order history  
+|--product-view.php                                          # Product details  
+|--products.php                                              # Products page  
+|--register.php                   
+|--view-order.php                                            # order view  
 
 ## Features
 
