@@ -58,36 +58,6 @@ This project is deployed using Zeabur. You can access the Deployed version at:
 
 https://shop-site-demo.zeabur.app/
 
-## Project Structure
-
-|-- /admin                                                   // Admin backend files                                                                                     
-|-- /assets                                                  # Frontend assets  
-|     |-- /css                   
-|     |-- /images                
-|     |-- /js                   
-|-- /config                    
-|      |-- db.php                 
-|-- /functions                 
-|-- /includes                  
-|-- /middleware                 
-|-- /uploads                    
-|--.gitignore                    
-|--authencticate.php              
-|--cart.php                                                  # Shopping cart page  
-|--category.php                                              # Product categories  
-|--checkout.php                                              # Checkout logic with PayPal integration  
-|--composer.json                    
-|--composer.lock                   
-|--db.sql                        
-|--index.php                                                 # Homepage  
-|--login.php                      
-|--logout.php                     
-|--my-orders.php                                             # order history  
-|--product-view.php                                          # Product details  
-|--products.php                                              # Products page  
-|--register.php                   
-|--view-order.php                                            # order view  
-
 ## Features
 
 * Frontend: Built with HTML, CSS, and Javascript.
